@@ -75,3 +75,27 @@ $('.works .owl-carousel').owlCarousel({
     }
 });
 
+ // Testimonials owlCarousel
+ $('.testimonials .owl-carousel').owlCarousel({
+    loop:true,
+    margin: 30,
+    mouseDrag:true,
+    autoplay: false,
+    autoplayTimeout: 7000,
+    dots: true,
+    nav: false,
+    navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items: 1,
+        },
+        600:{
+            items: 1,
+        },
+        1000:{
+            items: 2,
+        }
+    }
+}); 
+

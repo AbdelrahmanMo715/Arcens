@@ -11,7 +11,7 @@ ul{
 }
 :root{
     --red-color: #dc2751;
-    --dark-color : var(--dark-color)
+    --dark-color : #b1b1b;
 }
 
 
@@ -54,9 +54,9 @@ ul{
     display: inline-block;
     height: auto;
     padding: 20px 50px;
-    border: 1px solid #dc2751;
+    border: 1px solid var(--red-color);
     border-radius: 80px;
-    background-color: #dc2751;
+    background-color: var(--red-color);
     -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
     transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
     color: #fff;
@@ -875,7 +875,7 @@ ul{
     transform: scale(0);
 }
 .video-popup .vid .vid-butn .icon {
-    color: #dc2751;
+    color: var(--red-color);
     width: 100px;
     height: 100px;
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -960,7 +960,7 @@ ul{
     border-radius: 10px;
 }
 .team .item:hover .con {
-    background: #dc2751;
+    background: var(--red-color);
 }
 .team .item:hover .con h5 {
   transform: translateX(10px);
@@ -992,7 +992,7 @@ ul{
     width: 50px;
     height: 50px;
     font-size: 16px;
-    color: #dc2751;
+    color: var(--red-color);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     border-radius: 100%;
@@ -1000,7 +1000,7 @@ ul{
 }
 .team .item .con .arrow a:hover {
     background: #fff;
-    color: #dc2751;
+    color: var(--red-color);
 }
 .team .item .con h5 {
     font-size: 18px;
@@ -1037,7 +1037,7 @@ ul{
     border-top: 2px solid rgba(0,0,0,0.05);
   }
   .events .item:hover {
-    border-bottom-color: #dc2751;
+    border-bottom-color: var(--red-color);
   }
   .events .item:hover .text a {
     text-decoration: none;
@@ -1055,7 +1055,7 @@ ul{
       color: #1b1b1b;
   }
   .events .item .text p {
-      color: #dc2751;
+      color: var(--red-color);
       font-size: 16px;
       font-weight: 400;
       font-family: 'Architects Daughter', cursive;
@@ -1072,7 +1072,7 @@ ul{
       font-size: 85px;
       margin-right: 12px;
       color: transparent;
-      -webkit-text-stroke: 1.5px #dc2751;
+      -webkit-text-stroke: 1.5px var(--red-color);
       opacity: .8;
   }
   .events .item .date div span {
@@ -1147,7 +1147,68 @@ ul{
   
   }
 
-  
+  /* ++++++ Testimonials style +++++++ */
+.testimonials {
+    position: relative;
+}
+.testimonials .item {
+    position: relative;
+    background: #f0f0f3;
+    padding: 45px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.testimonials .item .quote {
+    position: relative;
+    font-size: 55px;
+    color: var(--red-color);
+    line-height: 65px;
+}
+.testimonials .item p {
+    color: #727272;
+}
+.testimonials .item .info {
+    text-align: left;
+    padding: 15px 0 0 0;
+    border: none;
+    border-top: 2px solid rgba(0,0,0,0.05);
+}
+.testimonials .item .info .author-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    border: 2px solid rgba(0,0,0,0.05);
+    padding: 4px;
+}
+.testimonials .item .info .author-img img {
+    border-radius: 100%;
+}
+.testimonials .item .info .cont {
+    margin-left: 80px;
+}
+.testimonials .item .info .cont h6 {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: #1b1b1b;
+    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.testimonials .item .info span {
+    font-size: 16px;
+    color: #727272;
+    line-height: 1.2em;
+}
+
+
+
+
   
 
 
