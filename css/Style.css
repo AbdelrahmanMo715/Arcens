@@ -885,6 +885,117 @@ ul{
     transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
 
+/* ======= Team style ======= */
+.team {
+    position: relative;
+}
+.team .item {
+    position: relative;
+    
+}
+.team .item .img {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.team .item .img:hover img {
+    -webkit-filter: none;
+    filter: none;
+    transform: scale(1.09, 1.09);
+    transition: all 1s ease;
+}
+.team .item .img img {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.team .item .con {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom: 45px;
+    z-index: 2;
+    background: #f0f0f3;
+    padding: 25px 20px;
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+}
+.team .item:hover .con {
+    background: #dc2751;
+}
+.team .item:hover .con h5 {
+  transform: translateX(10px);
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+.team .item .con .arrow {
+    position: relative;
+    display: block;
+    top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transform: rotate(0);
+}
+.team .item:hover .con .arrow {
+    visibility: visible;
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.team .item .con .arrow a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    color: #dc2751;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 100%;
+    background: #fff;
+}
+.team .item .con .arrow a:hover {
+    background: #fff;
+    color: #dc2751;
+}
+.team .item .con h5 {
+    font-size: 18px;
+    color: #1b1b1b;
+    line-height: 1.5em;
+}
+.team .item .con h5 a {
+    color: #1b1b1b;
+}
+.team .item .con h5 span {
+    font-size: 16px;
+    color: #727272;
+    text-transform: none;
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+    letter-spacing: 0;
+}
+.team .item:hover .con h5,
+.team .item:hover .con h5 a,
+.team .item:hover .con h5 span {
+    color: #fff;
+}
+
+
+
+
 
 
 
