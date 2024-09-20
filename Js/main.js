@@ -44,3 +44,6 @@ $('.works .owl-carousel').owlCarousel({
         }
     }
 });
+
+ // YouTubePopUp
+ $("a.vid").YouTubePopUp();
