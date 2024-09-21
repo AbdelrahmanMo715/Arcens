@@ -99,3 +99,31 @@ $('.works .owl-carousel').owlCarousel({
     }
 }); 
 
+// Blog 2 owlCarousel 
+$('.blog2 .owl-carousel').owlCarousel({
+    loop: true
+    , margin: 30
+    , mouseDrag: true
+    , autoplay: false
+    , autoplayTimeout: 5000
+    , dots: true
+    , nav: false
+    , navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>']
+    , autoplayHoverPause:true
+    , responsiveClass: true
+    , responsive: {
+        0: {
+            items: 1,
+            dots: true
+        , }
+        , 600: {
+            items: 2,
+            dots: true
+        }
+        , 1000: {
+            items: 3
+        }
+    }
+});
+
+
