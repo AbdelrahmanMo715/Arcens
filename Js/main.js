@@ -126,4 +126,29 @@ $('.blog2 .owl-carousel').owlCarousel({
     }
 });
 
+// Clients owlCarousel
+$('.clients .owl-carousel').owlCarousel({
+    loop: true
+    , margin: 30
+    , mouseDrag: true
+    , autoplay: true
+    , autoplayTimeout: 5000
+    , dots: false
+    , nav: false
+    , navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>']
+    , responsiveClass: true
+    , responsive: {
+        0: {
+            margin: 15
+            , items: 2
+        }
+        , 600: {
+            items: 3
+        }
+        , 1000: {
+            items: 5
+        }
+    }
+});
+
 
