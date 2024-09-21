@@ -10,7 +10,7 @@
         logo.attr('src', '../assets/logo/logo-dark.png');
     } else {
         navbar.removeClass("nav-scroll");
-        logo.attr('src', '../assets/logo//logo-light.png');
+        logo.attr('src', '../assets/logo/logo-light.png');
     }
 });
 
