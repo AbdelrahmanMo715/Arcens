@@ -1820,6 +1820,7 @@ transform: translateY(-50%);
     color:#fff;
 }
 .banner-header .breadcrumbs li:not(:last-child):after {
+    content: "|";
     margin: 0 20px;
     vertical-align: middle;
     position: relative;
@@ -1829,7 +1830,6 @@ transform: translateY(-50%);
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: "|";
     font-size: 12px;
     font-weight: 900;
     color: #dc2751;
