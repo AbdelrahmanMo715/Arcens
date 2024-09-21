@@ -1756,6 +1756,94 @@ transform: translateY(-50%);
     stroke: #dc2751;
 }
 
+/*  Banner Header  */
+.banner-header {
+    position: relative;
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-header .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b9d;
+
+}
+.v-middle {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    z-index: 9;
+}
+.banner-header.full-height {
+    min-height: 100vh;
+}
+.banner-header[data-overlay-dark] h1,
+.banner-header h1 {
+    font-size: 48px;
+    color: #fff;
+    position: relative;
+    line-height: 1.25em;
+    margin-bottom: 0;
+}
+.banner-header p {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #fff;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+/* breadcrumbs */
+.banner-header .breadcrumbs {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+.banner-header .breadcrumbs li {
+    display:inline-block;
+    margin:0;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+}
+.banner-header .breadcrumbs li a {
+    color:#dc2751;
+}
+.banner-header .breadcrumbs li a:hover {
+    color:#fff;
+}
+.banner-header .breadcrumbs li:not(:last-child):after {
+    margin: 0 20px;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "|";
+    font-size: 12px;
+    font-weight: 900;
+    color: #dc2751;
+}
+@media screen and (max-width: 767px) {
+    .banner-header h1 {
+        font-size: 36px;
+    }
+}
+
+
+
+
+
 
 
 
