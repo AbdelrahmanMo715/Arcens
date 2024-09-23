@@ -1,9 +1,3 @@
-const repoName = "Arcens";
-document.querySelectorAll('a.nav-link').forEach(link => {
-  if (window.location.hostname === "abdelrahmanmo715.github.io") {
-    link.href = `/${repoName}/${link.getAttribute("href")}`;
-  }
-});
 
 
   // Navbar scrolling background
